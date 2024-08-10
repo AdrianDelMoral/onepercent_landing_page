@@ -1,6 +1,9 @@
 import { formatCurrency } from "./helpers"
 
 export const App = () => {
+  const priceone=29.90
+  const pricetwo=49.90
+  const pricethree=69.90
 
   return (
     <>
@@ -120,7 +123,7 @@ export const App = () => {
               <li>Personalización</li>
               <li>Dudas</li>
             </ul>
-            <div className="mx-8 bg-black rounded-xl text-xl font-bold text-center text-gray-200 py-3 cursor-pointer hover:bg-blue-300 hover:text-gray-900 transition-all">{formatCurrency(29, 90)}/mes</div>
+            <div className="mx-8 bg-black rounded-xl text-xl font-bold text-center text-gray-200 py-3 cursor-pointer hover:bg-blue-300 hover:text-gray-900 transition-all">{formatCurrency(priceone)}/mes</div>
           </div>
           <div className="bg-gray-200 text-gray-900 rounded-lg p-8 space-y-8 flex flex-col justify-around px-10">
             <h2 className="text-3xl font-extrabold uppercase text-center">Intermediate</h2>
@@ -131,7 +134,7 @@ export const App = () => {
               <li>Personalización</li>
               <li>Dudas</li>
             </ul>
-            <div className="mx-8 bg-black rounded-xl text-xl font-bold text-center text-gray-200 py-3 cursor-pointer hover:bg-blue-300 hover:text-gray-900 transition-all">{formatCurrency(49, 90)}/mes</div>
+            <div className="mx-8 bg-black rounded-xl text-xl font-bold text-center text-gray-200 py-3 cursor-pointer hover:bg-blue-300 hover:text-gray-900 transition-all">{formatCurrency(pricetwo)}/mes</div>
           </div>
           <div className="bg-gray-200 text-gray-900 rounded-lg p-8 space-y-8 flex flex-col justify-around px-10 my-8">
             <h2 className="text-3xl font-extrabold uppercase text-center">1%</h2>
@@ -143,7 +146,7 @@ export const App = () => {
               <li>Dudas 24/7</li>
               <li>Acceso al 1% training club</li>
             </ul>
-            <div className="mx-8 bg-black rounded-xl text-xl font-bold text-center text-gray-200 py-3 cursor-pointer hover:bg-blue-300 hover:text-gray-900 transition-all">{formatCurrency(69, 90)}/mes</div>
+            <div className="mx-8 bg-black rounded-xl text-xl font-bold text-center text-gray-200 py-3 cursor-pointer hover:bg-blue-300 hover:text-gray-900 transition-all">{formatCurrency(pricethree)}/mes</div>
           </div>
         </div>
       </section>
