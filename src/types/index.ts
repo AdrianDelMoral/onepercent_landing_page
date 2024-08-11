@@ -12,6 +12,13 @@ export type FirstSections = {
     imageSection: string
 }
 
+export type Offers = {
+    id: number,
+    offerTitle:string,
+    offerImage: string
+    linkto: string
+}
+
 export type PlanItems = {
     id: number,
     title: string,

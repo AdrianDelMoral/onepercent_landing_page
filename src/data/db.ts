@@ -2,7 +2,8 @@ import type {
     HeroItem, 
     FirstSections, 
     PlanItems, 
-    FooterInfo
+    FooterInfo,
+    Offers
 } from "../types"
 
 export const heroItems : HeroItem = {
@@ -18,6 +19,27 @@ export const firstSection : FirstSections = {
     linkto: "#formulario",
     imageSection: "first-section"
 }
+
+export const offers : Offers[] = [
+    {
+        id: 1,
+        offerTitle: "Entrenamiento",
+        offerImage: "training-image",
+        linkto: "https://docs.google.com/forms/d/e/1FAIpQLSdB2XrkjsaPC3Oen-c1sqx-ePUZSQh7vlCQYV__3NChSq199w/viewform"
+    },
+    {
+        id: 2,
+        offerTitle: "Nutrición",
+        offerImage: "nutrition-image",
+        linkto: "https://docs.google.com/forms/d/e/1FAIpQLSdB2XrkjsaPC3Oen-c1sqx-ePUZSQh7vlCQYV__3NChSq199w/viewform"
+    },
+    {
+        id: 3,
+        offerTitle: "Personalización",
+        offerImage: "training-personalization",
+        linkto: "https://docs.google.com/forms/d/e/1FAIpQLSdB2XrkjsaPC3Oen-c1sqx-ePUZSQh7vlCQYV__3NChSq199w/viewform"
+    },
+]
 
 export const planItems : PlanItems[] = [
     {
@@ -72,7 +94,7 @@ export const footerItems : FooterInfo[] = [
         id: 2,
         title: "Telegram",
         text: "t.me/onepercentclvb",
-        link: "t.me/onepercentclvb"
+        link: "https://t.me/onepercentclvb"
     },
     {
         id: 3,
@@ -81,4 +103,3 @@ export const footerItems : FooterInfo[] = [
         link: "https://docs.google.com/forms/d/e/1FAIpQLSdB2XrkjsaPC3Oen-c1sqx-ePUZSQh7vlCQYV__3NChSq199w/viewform"
     },
 ]
-
