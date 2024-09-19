@@ -8,7 +8,7 @@ export default function Offers() {
                 <h2 className="text-6xl font-bold">Qué Ofrecemos</h2>
                 <p className="text-xl font-extralight">La mejor experiencia de asesoramiento nutricional y entrenamiento.</p>
             </div>
-            <div className="container px-28 xl:px-0 mx-auto w-full bg-muted grid grid-cols-1 gap-16 xl:gap-8 xl:grid-cols-3 max-w-6xl">
+            <div className="container px-4 md:px-28 xl:px-0 mx-auto w-full bg-muted grid grid-cols-1 gap-16 xl:gap-8 xl:grid-cols-3 max-w-6xl">
                 {offers.map(offerInfo => (
                     <div
                         key={offerInfo.id}
